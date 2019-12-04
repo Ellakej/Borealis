@@ -1,8 +1,8 @@
 # Rover_Explorer
 
-Rover de exploración con el objetivo de encontrar un objeto en un área no conocida
+Rover explorador autónomo.
 
-Para informacion detallada del desarrollo del Rover, por favor revisa la Wiki, ubicada en la pestaña del mismo nombre de este repositorio.
+Para informacion detallada del desarrollo del Rover, por favor revisa la Wiki, ubicada en la pestaña del mismo nombre de este repositorio. 
 
 ## Changelog y fallas detectadas:
 
