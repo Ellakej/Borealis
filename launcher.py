@@ -1,5 +1,7 @@
 import curses
 import pyfiglet
+import os
+import time
 
 class MenuDisplay:
 
@@ -40,7 +42,7 @@ class MenuDisplay:
         # imprime los metadatos
         self.print_meta()
 
-
+        #Ciclo selector
         while 1:
             key = self.stdscr.getch()
 
@@ -53,6 +55,8 @@ class MenuDisplay:
                 if current_row == len(self.menu) - 1:
                     if self.confirm("Estas seguro de que deseas salir?"):
                         break
+                if current_row == 0:
+                    self.inicio()
 
 
             self.print_menu(current_row)
@@ -106,6 +110,7 @@ class MenuDisplay:
 
         self.stdscr.refresh()
 
+    #Pantalla de confirmacion de salida
     def confirm(self, confirmation_text):
         self.print_center(confirmation_text)
 
@@ -123,6 +128,16 @@ class MenuDisplay:
                 return True if current_option == "si" else False
 
             self.print_confirm(current_option)
+    #Pantalla de inicio
+    def inicio(self):
+        password = "raspberry"
+        self.print_center("Iniciando la raspberry pi...")
+        while 1:
+            self.stdscr.clear()
+            self.stdscr.addstr(10, 10, str(os.system('python client.py')))
+
+        self.stdscr.refresh()
+
 
     def print_center(self, text):
         self.stdscr.clear()
