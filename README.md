@@ -2,7 +2,7 @@
 
 Rover explorador autónomo.
 
-Para informacion detallada del desarrollo del Rover, por favor revisa la Wiki, ubicada en la pestaña del mismo nombre de este repositorio. 
+Para informacion detallada del desarrollo del Rover, por favor revisa la [Wiki](https://github.com/Ellakej/Rover_Explorer/wiki), ubicada en la pestaña del mismo nombre de este repositorio. 
 
 ## Changelog y fallas detectadas:
 
