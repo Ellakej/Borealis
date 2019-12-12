@@ -1,6 +1,6 @@
-# Rover_Explorer
+# Borealis
 
-Rover explorador autónomo.
+Rover explorador autónomo multiproposito y multientorno.
 
 Para informacion detallada del desarrollo del Rover, por favor revisa la [Wiki](https://github.com/Ellakej/Rover_Explorer/wiki), ubicada en la pestaña del mismo nombre de este repositorio. 
 
@@ -15,8 +15,13 @@ Para informacion detallada del desarrollo del Rover, por favor revisa la [Wiki](
 * Se intento usar un arduino nano, pero este no era original, usaba un controlador CH34x, existente en el kernel de la raspberry pi, pero debido a que el puerto serie solo funciona por ACMx y el CH34x solo recibia datos por USBx, este problema no permitio continuar, la unica opcion que se nos ocurrio fue desarrollar un controlador, pero debido a falta de experiencia y tiempo se descarto su desarrollo
 
 ### V2. Rover_Explorer (Cambio de nombre a Rover_Explorer, debido a su poder multiproposito)
-* En proceso...
+* Reanalisis del proyecto
+* Cambio de nombre
+* Estandarizacion con Wifi y Bluetooth
+* Creacion del Punto de Acceso
 
+### V2.1 Borealis (Cambio de nombre por sucesion espiritual del Proyecto Aurora y por practicidad de memorizacion)
+* En Progreso
 
 ## Lluvia de ideas para el desarrollo
 * Uso de un socket para intercambio de datos inmediato entre la raspberry pi y la PC
