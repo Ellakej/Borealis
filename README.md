@@ -30,4 +30,7 @@ Para informacion detallada del desarrollo del Rover, por favor revisa la [Wiki](
 * Propuesta para hibridizar el rover al agregarle propelas desplegables y que pueda volar para alcanzar otras superficies
 * Incluir el uso de AR para que el usuario pueda visualizar datos de una manera mas sencilla desde su pantalla y/o agregar mas herramientas y funciones al rover
 * Uso de procesador portatil neural Movidius para agilizar el reconocimiento de objetos y desde la raspberry pi realizar la tarea
- 
+* Creacion de un punto de acceso en el propio Raspberry Pi para evitar uso de puntos de acceso extras que entorpescan la comunicacion
+* Compatibilidad con multiples controles Bluetooth (Wiimote, prueba piloto, usando Bluetooth HID y drivers especificos)
+* Pantalla de estado conectado al Rover (es requerido un controlador AV)
+* Incorporacion a red Nexo (Documentacion proximamente), para controlarse como nodos y proporcionar mas informacion de areas usando una red de drones, de este modo el proceso pesado se hara del lado del servidor y no del cliente [Rover])
