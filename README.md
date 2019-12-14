@@ -38,4 +38,4 @@ Para informacion detallada del desarrollo del Rover, por favor revisa la [Wiki](
 * Creacion de un punto de acceso en el propio Raspberry Pi para evitar uso de puntos de acceso extras que entorpescan la comunicacion
 * Compatibilidad con multiples controles Bluetooth (Wiimote, prueba piloto, usando Bluetooth HID y drivers especificos)
 * Pantalla de estado conectado al Rover (es requerido un controlador AV)
-* Incorporacion a red Nexo (Documentacion proximamente), para controlarse como nodos y proporcionar mas informacion de areas usando una red de drones, de este modo el proceso pesado se hara del lado del servidor y no del cliente [Rover]) [Aun en planteamiento]
+
