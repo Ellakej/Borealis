@@ -1,4 +1,4 @@
-# Borealis
+# Borealis <img src="https://github.com/Ellakej/8store/blob/master/assets/8code/8codelogo.png" alt="logo" width="50" align="right"/>
 
 Rover explorador autónomo multiproposito y multientorno.
 
